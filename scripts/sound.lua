@@ -24,11 +24,11 @@ function startBackgroundSound()
         i.filename = vrjLua.findInModelSearchPath("Sound/Virtutes Vocis.mp3")
 
         i.ambient = true
-        s = snx.SoundHandle("bgaudio")
-        s:configure(i)
+        backgroundSound = snx.SoundHandle("bgaudio")
+        backgroundSound:configure(i)
 
         -- Loop
-        s:trigger(-1)
+        backgroundSound:trigger(-1)
 end
 
 local move = SoundWav(vrjLua.findInModelSearchPath("Sound/move.wav"))
