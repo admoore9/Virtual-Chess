@@ -98,8 +98,8 @@ undoAvailable = false
 Actions.addFrameAction(
 	function()
 		local wand = gadget.PositionInterface('VJWand')
-		local button = gadget.DigitalInterface("VJButton2")
-		-- local button = gadget.DigitalInterface("WMButtonB")
+		-- local button = gadget.DigitalInterface("VJButton2")
+		local button = gadget.DigitalInterface("WMButtonB")
 		while true do
 			repeat
 				Actions.waitForRedraw()

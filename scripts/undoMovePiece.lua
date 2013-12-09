@@ -1,7 +1,8 @@
 Actions.addFrameAction(
 	function()
 		local wand = gadget.PositionInterface('VJWand')
-		local button = gadget.DigitalInterface("VJButton1")
+		-- local button = gadget.DigitalInterface("VJButton1")
+		local button = gadget.DigitalInterface("WMButtonMinus")
 		while true do
 			repeat
 				Actions.waitForRedraw()

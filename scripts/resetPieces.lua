@@ -1,8 +1,8 @@
 -- [[ Frame action to reset the position of all the pieces ]]
 Actions.addFrameAction(
 	function()
-		local button = gadget.DigitalInterface("VJButton1")
-		-- local button = gadget.DigitalInterface("WMButtonHome")
+		-- local button = gadget.DigitalInterface("VJButton1")
+		local button = gadget.DigitalInterface("WMButtonHome")
 		while true do
 			repeat
 			Actions.waitForRedraw()
